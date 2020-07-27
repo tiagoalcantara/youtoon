@@ -8,21 +8,23 @@ function VideoCardGroup({
 }) {
   const categoryTitle = category.titulo;
   const categoryColor = category.cor;
-  const categoryExtraLink = category.link_extra;
+  const comment = category.link_extra;
   const videos = category.videos;
+  const categoryLink = category.link;
+
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
-        <>
-          <Title style={{ backgroundColor: categoryColor || 'red' }}>
+        <div style={{display: "flex", alignItems: "flex-end"}}>
+          <Title href={categoryLink} target="_blank" style={{ backgroundColor: categoryColor || 'red' }}>
             {categoryTitle}
           </Title>
-          {categoryExtraLink && 
-            <ExtraLink href={categoryExtraLink.url} target="_blank">
-              {categoryExtraLink.text}  
+          {comment && 
+            <ExtraLink>
+              {comment.text}  
             </ExtraLink>
           }
-        </>
+        </div>
       )}
       <VideoCardList>
         {videos.map((video, index) => {

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Title = styled.h3`
+export const Title = styled.a`
   font-style: normal;
   font-weight: normal;
   font-size: 35px;
@@ -11,6 +11,7 @@ export const Title = styled.h3`
   background: red;
   line-height: 1;
   border-radius: 4px;
+  text-decoration: none;
 
   @media (max-width: 800px) {
     font-size: 18px;
@@ -18,18 +19,16 @@ export const Title = styled.h3`
   }
 `;
 
-export const ExtraLink = styled.a`
-  margin-left: 16px;
-  text-decoration: none;
-  transition: opacity .3s;
-  &:hover,
-  &:focus {
-    opacity: .5;
-  }
+export const ExtraLink = styled.p`
+  margin-bottom: 20px;
+  margin-left: 8px;
+  font-size: 12px;
+
   @media (max-width: 800px) {
+    font-size: 10px;
     display: block;
     margin-bottom: 16px;
-    margin-left: 0;
+    margin-left: 2px;
   }
 `;
 
@@ -44,6 +43,20 @@ export const VideoCardList = styled.ul`
   
   li {
     margin-right: 16px;
+  }
+
+  &::-webkit-scrollbar {
+   height: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+  background: var(--black); 
+  border-radius: 10px;
   }
 `;
 

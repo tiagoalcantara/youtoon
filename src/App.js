@@ -7,13 +7,13 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div style={{ background: "#141414" }}>
+    <div style={{ background: "var(--grayDark)" }}>
       <Menu />
 
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"}
+        videoDescription={"Bee and PuppyCat é uma websérie de desenho animado. Gira em torno de Bee (dublado por Allyn Rachel nos EUA), uma mulher desempregada com seus vinte anos, que de repente encontra uma criatura misteriosa chamada PuppyCat."}
       />
 
       <Carousel
@@ -24,22 +24,6 @@ function App() {
       <Carousel
         category={dadosIniciais.categorias[1]}
       />
-
-      <Carousel
-        category={dadosIniciais.categorias[2]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[3]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[4]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
-      />      
 
       <Footer />
     </div>
