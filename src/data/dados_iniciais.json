@@ -1,53 +1,256 @@
 {
   "categorias": [
     {
+      "titulo": "asdfmovie",
+      "link": "https://www.youtube.com/channel/UCOYWgypDktXdb-HfZnSMK6A",
+      "cor": "#000000",
+      "link_extra": {
+        "text": "(Inglês) (Legendas indisponíveis)"
+      },
+      "videos": [
+        {
+          "titulo": "asdfmovie",
+          "url": "https://www.youtube.com/watch?v=IYnsfV5N2n8"
+        },
+        {
+          "titulo": "asdfmovie2",
+          "url": "https://www.youtube.com/watch?v=tKB4h9gvmm0"
+        },
+        {
+          "titulo": "asdfmovie3",
+          "url": "https://www.youtube.com/watch?v=oY6tCnu-1Do"
+        },
+        {
+          "titulo": "asdfmovie4",
+          "url": "https://www.youtube.com/watch?v=cYNdUM2gRsg"
+        },
+        {
+          "titulo": "asdfmovie5",
+          "url": "https://www.youtube.com/watch?v=tCnj-uiRCn8"
+        },
+        {
+          "titulo": "asdfmovie6",
+          "url": "https://www.youtube.com/watch?v=hrzIykdka4s"
+        },
+        {
+          "titulo": "asdfmovie7",
+          "url": "https://www.youtube.com/watch?v=5xniR1GN69U"
+        },
+        {
+          "titulo": "asdfmovie8",
+          "url": "https://www.youtube.com/watch?v=olit-B5Yldc"
+        },
+        {
+          "titulo": "asdfmovie9",
+          "url": "https://www.youtube.com/watch?v=8l6T3fwxAyw"
+        },
+        {
+          "titulo": "asdfmovie10",
+          "url": "https://www.youtube.com/watch?v=foFKXS6Nyho"
+        },
+        {
+          "titulo": "asdfmovie11",
+          "url": "https://www.youtube.com/watch?v=LJnpwL-2Drc"
+        },
+        {
+          "titulo": "asdfmovie12",
+          "url": "https://www.youtube.com/watch?v=UsVWkAq1s0U"
+        }
+      ]
+    },
+    {
       "titulo": "Bee and PuppyCat",
       "link": "https://www.youtube.com/user/CartoonHangover",
       "cor": "#f694f7",
       "link_extra": {
-        "text": "(Legendas em português disponíveis)",
-        "url": ""
+        "text": "(Inglês) (Legendas em português disponíveis)"
       },
       "videos": [
         {
-          "titulo": "Food",
+          "titulo": "Episódio 1 - Food",
           "url": "https://www.youtube.com/watch?v=KNs9shgQ2rI"
         },      
         {
-          "titulo": "Farmer",
+          "titulo": "Episódio 2 - Farmer",
           "url": "https://www.youtube.com/watch?v=LugwQtPdkKU"
         },      
         {
-          "titulo": "Beach",
+          "titulo": "Episódio 3 - Beach",
           "url": "https://www.youtube.com/watch?v=-tUiE_VbCyk"
         },      
         {
-          "titulo": "Cats",
+          "titulo": "Episódio 4 - Cats",
           "url": "https://www.youtube.com/watch?v=Yjj5RsgpPwA"
         },      
         {
-          "titulo": "Birthday",
+          "titulo": "Episódio 5 - Birthday",
           "url": "https://www.youtube.com/watch?v=k84wXN2aXQI&"
         },      
         {
-          "titulo": "Game",
+          "titulo": "Episódio 6 - Game",
           "url": "https://www.youtube.com/watch?v=BwYcdNKY7N8"
         },      
         {
-          "titulo": "Toast",
+          "titulo": "Episódio 7 - Toast",
           "url": "https://www.youtube.com/watch?v=rlcE3JHvgnY"
         },      
         {
-          "titulo": "Dogs",
+          "titulo": "Episódio 8 - Dogs",
           "url": "https://www.youtube.com/watch?v=exX4XhxJGy4"
         },      
         {
-          "titulo": "Wedding",
+          "titulo": "Episódio 9 - Wedding",
           "url": "https://www.youtube.com/watch?v=XKfNlMQpfpQ"
         },      
         {
-          "titulo": "Donut",
+          "titulo": "Episódio 10 - Donut",
           "url": "https://www.youtube.com/watch?v=jTkeHhH1ho4"
+        }
+      ]
+    },
+    {
+      "titulo": "Bravest Warriors",
+      "link": "https://www.youtube.com/user/BravestWarriors/featured",
+      "cor": "#387df5",
+      "link_extra": {
+        "text": "(Inglês) (Legendas indisponíveis)"
+      },
+      "videos": [
+        {
+          "title": "Episódio 1 - Time Slime",
+          "url": "https://www.youtube.com/watch?v=TPHvjcaY7lM"
+        },
+        {
+          "title": "Episódio 2 - Emotion Lord",
+          "url": "https://www.youtube.com/watch?v=58Uk_RzJuBE"
+        },
+        {
+          "title": "Episódio 3 - Butter Lettuce",
+          "url": "https://www.youtube.com/watch?v=LKKMnlCQ_Cs"
+        },
+        {
+          "title": "Episódio 4 - Memory Donk",
+          "url": "https://www.youtube.com/watch?v=Gdd64L_beSs"
+        },
+        {
+          "title": "Episódio 5 - The Bunless",
+          "url": "https://www.youtube.com/watch?v=UZdncsfCvGw"
+        },
+        {
+          "title": "Episódio 6 - Lavarinth",
+          "url": "https://www.youtube.com/watch?v=yedxmztthkY"
+        },
+        {
+          "title": "Episódio 7 - Gas Powered Stick",
+          "url": "https://www.youtube.com/watch?v=qJWv0HFVicQ"
+        },
+        {
+          "title": "Episódio 8 - Dan Before Time",
+          "url": "https://www.youtube.com/watch?v=suUPPIjmtgk"
+        },
+        {
+          "title": "Episódio 9 - Cereal Master",
+          "url": "https://www.youtube.com/watch?v=ozHTAHPt4Cs"
+        },
+        {
+          "title": "Episódio 10 - Ultra Wankershim",
+          "url": "https://www.youtube.com/watch?v=LostGanERWk"
+        },
+        {
+          "title": "Episódio 11 - Catbug",
+          "url": "https://www.youtube.com/watch?v=Q8XbcTiogls"
+        },
+        {
+          "title": "Episódio Bônus - Sugarbellies",
+          "url": "https://www.youtube.com/watch?v=Ef8HrdssiFs"
+        }
+      ]
+    },
+    {
+      "titulo": "Don't Hug Me. I'm Scared",
+      "link": "https://www.youtube.com/c/donthugmeimscared/featured",
+      "cor": "#e0be4f",
+      "link_extra": {
+        "text": "(Inglês) (Legendas indisponíveis) (Terror)"
+      },
+      "videos": [
+        {
+          "title": "Don't Hug me I'm Scared",
+          "url": "https://www.youtube.com/watch?v=9C_HReR_McQ"
+        },
+        {
+          "title": "Don't Hug me I'm Scared 2",
+          "url": "https://www.youtube.com/watch?v=vtkGtXtDlQA"
+        },
+        {
+          "title": "Don't Hug me I'm Scared 3",
+          "url": "https://www.youtube.com/watch?v=sXOdn6vLCuU"
+        },
+        {
+          "title": "Don't Hug me I'm Scared 4",
+          "url": "https://www.youtube.com/watch?v=G9FGgwCQ22w"
+        },
+        {
+          "title": "Don't Hug me I'm Scared 5",
+          "url": "https://www.youtube.com/watch?v=tS_Xq7gSCBM"
+        },
+        {
+          "title": "Don't Hug me I'm Scared 6",
+          "url": "https://www.youtube.com/watch?v=dbL-NSkXnl8"
+        }
+      ]
+    },
+    {
+      "titulo": "GO! Cartoons",
+      "link": "https://www.youtube.com/channel/UCIA9jUDnKVMYc4SmqTxcwqg",
+      "cor": "#f7ee81",
+      "link_extra": {
+        "text": "(Inglês) (Legendas em português disponíveis em alguns dos episódios)"
+      },
+      "videos": [
+        {
+          "titulo": "The summoning",
+          "url": "https://www.youtube.com/watch?v=ElzEYgQW8f0"
+        },    
+        {
+          "titulo": "Boots",
+          "url": "https://www.youtube.com/watch?v=cDPVCMasOW0"
+        },   
+        {
+          "titulo": "City Dwellers",
+          "url": "https://www.youtube.com/watch?v=Kzj44NQdLzs"
+        },
+        {
+          "titulo": "Rachel and Her Grandfather Control the Island",
+          "url": "https://www.youtube.com/watch?v=hFufqL0yKbM"
+        },
+        {
+          "titulo": "Welcome to Doozy",
+          "url": "https://www.youtube.com/watch?v=VHBhfX1gA6c"
+        },
+        {
+          "titulo": "Both Brothers",
+          "url": "https://www.youtube.com/watch?v=YVB5VOTfXBc"
+        },
+        {
+          "titulo": "The Bagheads",
+          "url": "https://www.youtube.com/watch?v=fFjkYIgmZnA"
+        },
+        {
+          "titulo": "Tyler & Co.",
+          "url": "https://www.youtube.com/watch?v=20f6_qnaLD4"
+        },
+        {
+          "titulo": "Kid Arthur",
+          "url": "https://www.youtube.com/watch?v=fTGqab8HIGU"
+        },
+        {
+          "titulo": "Thrashin' USA",
+          "url": "https://www.youtube.com/watch?v=m982KZmaneo"
+        },
+        {
+          "titulo": "Pottyhorse",
+          "url": "https://www.youtube.com/watch?v=XYFlS5rBKhs"
         }
       ]
     },
@@ -56,14 +259,85 @@
       "link": "https://www.youtube.com/channel/UCzfyYtgvkx5mLy8nlLlayYg",
       "cor": "#990000",
       "link_extra": {
-        "text": "(Legendas indisponíveis) [18+]",
-        "url": ""
+        "text": "(Inglês) (Legendas indisponíveis) [18+]"
       },
       "videos": [
         {
-          "titulo": "Pilot",
+          "titulo": "Episódio 0 - Pilot",
           "url": "https://www.youtube.com/watch?v=Zlmswo0S0e0"
         }    
+      ]
+    },
+    {
+      "titulo": "Helluva Boss",
+      "link": "https://www.youtube.com/channel/UCzfyYtgvkx5mLy8nlLlayYg",
+      "cor": "#990000",
+      "link_extra": {
+        "text": "(Inglês) (Legendas indisponíveis) [18+]"
+      },
+      "videos": [
+        {
+          "titulo": "Episódio 0 - Pilot",
+          "url": "https://www.youtube.com/watch?v=OlahNrlcgS4"
+        }    
+      ]
+    },
+    {
+      "titulo": "Llamas with Hats",
+      "link": "https://www.youtube.com/channel/UCV3iHQsE2h3CH-LehgPRkMg",
+      "cor": "#fad378",
+      "link_extra": {
+        "text": "(Inglês) (Legendas indisponíveis) [18+]"
+      },
+      "videos": [
+        {
+          "titulo": "Episódio 1",
+          "url": "https://www.youtube.com/watch?v=kZUPCB9533Y"
+        },    
+        {
+          "titulo": "Episódio 2",
+          "url": "https://www.youtube.com/watch?v=ZpjyH-LkEAg"
+        },    
+        {
+          "titulo": "Episódio 3",
+          "url": "https://www.youtube.com/watch?v=49j6_uk0g3k"
+        },    
+        {
+          "titulo": "Episódio 4",
+          "url": "https://www.youtube.com/watch?v=SJixW2u4IvQ"
+        },    
+        {
+          "titulo": "Episódio 5",
+          "url": "https://www.youtube.com/watch?v=71iZieJWmmk"
+        },    
+        {
+          "titulo": "Episódio 6",
+          "url": "https://www.youtube.com/watch?v=kVzaBq4ycWg"
+        },    
+        {
+          "titulo": "Episódio 7",
+          "url": "https://www.youtube.com/watch?v=4s9-sJwNz2c"
+        },    
+        {
+          "titulo": "Episódio 8",
+          "url": "https://www.youtube.com/watch?v=kHDghTE7Llo"
+        },    
+        {
+          "titulo": "Episódio 9",
+          "url": "https://www.youtube.com/watch?v=RYqBDTsHZsQ"
+        },    
+        {
+          "titulo": "Episódio 10",
+          "url": "https://www.youtube.com/watch?v=cyv-gSJvWpU"
+        },    
+        {
+          "titulo": "Episódio 11",
+          "url": "https://www.youtube.com/watch?v=C_-zC2qcx4M"
+        },    
+        {
+          "titulo": "Episódio 12",
+          "url": "https://www.youtube.com/watch?v=QXI0u3qyFqA"
+        }
       ]
     }
   ]
