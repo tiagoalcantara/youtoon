@@ -6,6 +6,7 @@ export const Title = styled.a`
   font-size: 35px;
   line-height: 1;
   margin-bottom: 16px;
+  margin-left: 50px;
   display: inline-block;
   padding: 20px;
   background: red;
@@ -16,6 +17,12 @@ export const Title = styled.a`
   @media (max-width: 800px) {
     font-size: 18px;
     padding: 10px;
+  }
+
+  transition: opacity .1s;
+
+  &:hover {
+    opacity: 0.8;
   }
 `;
 
@@ -44,25 +51,12 @@ export const VideoCardList = styled.ul`
   li {
     margin-right: 16px;
   }
-
-  &::-webkit-scrollbar {
-   height: 5px;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: var(--primary);
-    border-radius: 10px;
-  }
-
-  &::-webkit-scrollbar-track {
-  background: var(--black); 
-  border-radius: 10px;
-  }
 `;
 
 export const VideoCardGroupContainer = styled.section`
   color: white;
   min-height: 197px;
-  margin-left: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
   margin-bottom: 16px;
 `;
