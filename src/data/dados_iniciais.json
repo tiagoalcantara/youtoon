@@ -1,183 +1,342 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "titulo": "asdfmovie",
+      "link": "https://www.youtube.com/channel/UCOYWgypDktXdb-HfZnSMK6A",
+      "cor": "#000000",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "(Inglês) (Legendas indisponíveis)"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "asdfmovie",
+          "url": "https://www.youtube.com/watch?v=IYnsfV5N2n8"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "asdfmovie2",
+          "url": "https://www.youtube.com/watch?v=tKB4h9gvmm0"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "asdfmovie3",
+          "url": "https://www.youtube.com/watch?v=oY6tCnu-1Do"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "asdfmovie4",
+          "url": "https://www.youtube.com/watch?v=cYNdUM2gRsg"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "asdfmovie5",
+          "url": "https://www.youtube.com/watch?v=tCnj-uiRCn8"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "asdfmovie6",
+          "url": "https://www.youtube.com/watch?v=hrzIykdka4s"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "asdfmovie7",
+          "url": "https://www.youtube.com/watch?v=5xniR1GN69U"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
-      ]
-    },
-    {
-      "titulo": "Back End",
-      "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
-      "videos": [
-        {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "asdfmovie8",
+          "url": "https://www.youtube.com/watch?v=olit-B5Yldc"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "asdfmovie9",
+          "url": "https://www.youtube.com/watch?v=8l6T3fwxAyw"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "asdfmovie10",
+          "url": "https://www.youtube.com/watch?v=foFKXS6Nyho"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-        }, 
+          "titulo": "asdfmovie11",
+          "url": "https://www.youtube.com/watch?v=LJnpwL-2Drc"
+        },
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "asdfmovie12",
+          "url": "https://www.youtube.com/watch?v=UsVWkAq1s0U"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "titulo": "Bee and PuppyCat",
+      "link": "https://www.youtube.com/user/CartoonHangover",
+      "cor": "#f694f7",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "(Inglês) (Legendas em português disponíveis)"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-        },
+          "titulo": "Episódio 1 - Food",
+          "url": "https://www.youtube.com/watch?v=KNs9shgQ2rI"
+        },      
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-        },
+          "titulo": "Episódio 2 - Farmer",
+          "url": "https://www.youtube.com/watch?v=LugwQtPdkKU"
+        },      
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-        },
+          "titulo": "Episódio 3 - Beach",
+          "url": "https://www.youtube.com/watch?v=-tUiE_VbCyk"
+        },      
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Episódio 4 - Cats",
+          "url": "https://www.youtube.com/watch?v=Yjj5RsgpPwA"
+        },      
+        {
+          "titulo": "Episódio 5 - Birthday",
+          "url": "https://www.youtube.com/watch?v=k84wXN2aXQI&"
+        },      
+        {
+          "titulo": "Episódio 6 - Game",
+          "url": "https://www.youtube.com/watch?v=BwYcdNKY7N8"
+        },      
+        {
+          "titulo": "Episódio 7 - Toast",
+          "url": "https://www.youtube.com/watch?v=rlcE3JHvgnY"
+        },      
+        {
+          "titulo": "Episódio 8 - Dogs",
+          "url": "https://www.youtube.com/watch?v=exX4XhxJGy4"
+        },      
+        {
+          "titulo": "Episódio 9 - Wedding",
+          "url": "https://www.youtube.com/watch?v=XKfNlMQpfpQ"
+        },      
+        {
+          "titulo": "Episódio 10 - Donut",
+          "url": "https://www.youtube.com/watch?v=jTkeHhH1ho4"
         }
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
+      "titulo": "Bravest Warriors",
+      "link": "https://www.youtube.com/user/BravestWarriors/featured",
+      "cor": "#387df5",
+      "link_extra": {
+        "text": "(Inglês) (Legendas indisponíveis)"
+      },
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "title": "Episódio 1 - Time Slime",
+          "url": "https://www.youtube.com/watch?v=TPHvjcaY7lM"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "title": "Episódio 2 - Emotion Lord",
+          "url": "https://www.youtube.com/watch?v=58Uk_RzJuBE"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "title": "Episódio 3 - Butter Lettuce",
+          "url": "https://www.youtube.com/watch?v=LKKMnlCQ_Cs"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "title": "Episódio 4 - Memory Donk",
+          "url": "https://www.youtube.com/watch?v=Gdd64L_beSs"
+        },
+        {
+          "title": "Episódio 5 - The Bunless",
+          "url": "https://www.youtube.com/watch?v=UZdncsfCvGw"
+        },
+        {
+          "title": "Episódio 6 - Lavarinth",
+          "url": "https://www.youtube.com/watch?v=yedxmztthkY"
+        },
+        {
+          "title": "Episódio 7 - Gas Powered Stick",
+          "url": "https://www.youtube.com/watch?v=qJWv0HFVicQ"
+        },
+        {
+          "title": "Episódio 8 - Dan Before Time",
+          "url": "https://www.youtube.com/watch?v=suUPPIjmtgk"
+        },
+        {
+          "title": "Episódio 9 - Cereal Master",
+          "url": "https://www.youtube.com/watch?v=ozHTAHPt4Cs"
+        },
+        {
+          "title": "Episódio 10 - Ultra Wankershim",
+          "url": "https://www.youtube.com/watch?v=LostGanERWk"
+        },
+        {
+          "title": "Episódio 11 - Catbug",
+          "url": "https://www.youtube.com/watch?v=Q8XbcTiogls"
+        },
+        {
+          "title": "Episódio Bônus - Sugarbellies",
+          "url": "https://www.youtube.com/watch?v=Ef8HrdssiFs"
         }
       ]
     },
     {
-      "titulo": "Games",
-      "cor": "red",
+      "titulo": "Don't Hug Me. I'm Scared",
+      "link": "https://www.youtube.com/c/donthugmeimscared/featured",
+      "cor": "#e0be4f",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "(Inglês) (Legendas indisponíveis) (Terror)"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "title": "Don't Hug me I'm Scared",
+          "url": "https://www.youtube.com/watch?v=9C_HReR_McQ"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "title": "Don't Hug me I'm Scared 2",
+          "url": "https://www.youtube.com/watch?v=vtkGtXtDlQA"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "title": "Don't Hug me I'm Scared 3",
+          "url": "https://www.youtube.com/watch?v=sXOdn6vLCuU"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "title": "Don't Hug me I'm Scared 4",
+          "url": "https://www.youtube.com/watch?v=G9FGgwCQ22w"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "title": "Don't Hug me I'm Scared 5",
+          "url": "https://www.youtube.com/watch?v=tS_Xq7gSCBM"
+        },
+        {
+          "title": "Don't Hug me I'm Scared 6",
+          "url": "https://www.youtube.com/watch?v=dbL-NSkXnl8"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
+      "titulo": "GO! Cartoons",
+      "link": "https://www.youtube.com/channel/UCIA9jUDnKVMYc4SmqTxcwqg",
+      "cor": "#f7ee81",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "(Inglês) (Legendas em português disponíveis em alguns dos episódios)"
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "The summoning",
+          "url": "https://www.youtube.com/watch?v=ElzEYgQW8f0"
+        },    
+        {
+          "titulo": "Boots",
+          "url": "https://www.youtube.com/watch?v=cDPVCMasOW0"
+        },   
+        {
+          "titulo": "City Dwellers",
+          "url": "https://www.youtube.com/watch?v=Kzj44NQdLzs"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Rachel and Her Grandfather Control the Island",
+          "url": "https://www.youtube.com/watch?v=hFufqL0yKbM"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Welcome to Doozy",
+          "url": "https://www.youtube.com/watch?v=VHBhfX1gA6c"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "Both Brothers",
+          "url": "https://www.youtube.com/watch?v=YVB5VOTfXBc"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "The Bagheads",
+          "url": "https://www.youtube.com/watch?v=fFjkYIgmZnA"
+        },
+        {
+          "titulo": "Tyler & Co.",
+          "url": "https://www.youtube.com/watch?v=20f6_qnaLD4"
+        },
+        {
+          "titulo": "Kid Arthur",
+          "url": "https://www.youtube.com/watch?v=fTGqab8HIGU"
+        },
+        {
+          "titulo": "Thrashin' USA",
+          "url": "https://www.youtube.com/watch?v=m982KZmaneo"
+        },
+        {
+          "titulo": "Pottyhorse",
+          "url": "https://www.youtube.com/watch?v=XYFlS5rBKhs"
+        }
+      ]
+    },
+    {
+      "titulo": "Hazbin Hotel",
+      "link": "https://www.youtube.com/channel/UCzfyYtgvkx5mLy8nlLlayYg",
+      "cor": "#990000",
+      "link_extra": {
+        "text": "(Inglês) (Legendas indisponíveis) [18+]"
+      },
+      "videos": [
+        {
+          "titulo": "Episódio 0 - Pilot",
+          "url": "https://www.youtube.com/watch?v=Zlmswo0S0e0"
+        }    
+      ]
+    },
+    {
+      "titulo": "Helluva Boss",
+      "link": "https://www.youtube.com/channel/UCzfyYtgvkx5mLy8nlLlayYg",
+      "cor": "#990000",
+      "link_extra": {
+        "text": "(Inglês) (Legendas indisponíveis) [18+]"
+      },
+      "videos": [
+        {
+          "titulo": "Episódio 0 - Pilot",
+          "url": "https://www.youtube.com/watch?v=OlahNrlcgS4"
+        }    
+      ]
+    },
+    {
+      "titulo": "Llamas with Hats",
+      "link": "https://www.youtube.com/channel/UCV3iHQsE2h3CH-LehgPRkMg",
+      "cor": "#fad378",
+      "link_extra": {
+        "text": "(Inglês) (Legendas indisponíveis) [18+]"
+      },
+      "videos": [
+        {
+          "titulo": "Episódio 1",
+          "url": "https://www.youtube.com/watch?v=kZUPCB9533Y"
+        },    
+        {
+          "titulo": "Episódio 2",
+          "url": "https://www.youtube.com/watch?v=ZpjyH-LkEAg"
+        },    
+        {
+          "titulo": "Episódio 3",
+          "url": "https://www.youtube.com/watch?v=49j6_uk0g3k"
+        },    
+        {
+          "titulo": "Episódio 4",
+          "url": "https://www.youtube.com/watch?v=SJixW2u4IvQ"
+        },    
+        {
+          "titulo": "Episódio 5",
+          "url": "https://www.youtube.com/watch?v=71iZieJWmmk"
+        },    
+        {
+          "titulo": "Episódio 6",
+          "url": "https://www.youtube.com/watch?v=kVzaBq4ycWg"
+        },    
+        {
+          "titulo": "Episódio 7",
+          "url": "https://www.youtube.com/watch?v=4s9-sJwNz2c"
+        },    
+        {
+          "titulo": "Episódio 8",
+          "url": "https://www.youtube.com/watch?v=kHDghTE7Llo"
+        },    
+        {
+          "titulo": "Episódio 9",
+          "url": "https://www.youtube.com/watch?v=RYqBDTsHZsQ"
+        },    
+        {
+          "titulo": "Episódio 10",
+          "url": "https://www.youtube.com/watch?v=cyv-gSJvWpU"
+        },    
+        {
+          "titulo": "Episódio 11",
+          "url": "https://www.youtube.com/watch?v=C_-zC2qcx4M"
+        },    
+        {
+          "titulo": "Episódio 12",
+          "url": "https://www.youtube.com/watch?v=QXI0u3qyFqA"
         }
       ]
     }
