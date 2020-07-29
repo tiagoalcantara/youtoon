@@ -117,51 +117,51 @@
       },
       "videos": [
         {
-          "title": "Episódio 1 - Time Slime",
+          "titulo": "Episódio 1 - Time Slime",
           "url": "https://www.youtube.com/watch?v=TPHvjcaY7lM"
         },
         {
-          "title": "Episódio 2 - Emotion Lord",
+          "titulo": "Episódio 2 - Emotion Lord",
           "url": "https://www.youtube.com/watch?v=58Uk_RzJuBE"
         },
         {
-          "title": "Episódio 3 - Butter Lettuce",
+          "titulo": "Episódio 3 - Butter Lettuce",
           "url": "https://www.youtube.com/watch?v=LKKMnlCQ_Cs"
         },
         {
-          "title": "Episódio 4 - Memory Donk",
+          "titulo": "Episódio 4 - Memory Donk",
           "url": "https://www.youtube.com/watch?v=Gdd64L_beSs"
         },
         {
-          "title": "Episódio 5 - The Bunless",
+          "titulo": "Episódio 5 - The Bunless",
           "url": "https://www.youtube.com/watch?v=UZdncsfCvGw"
         },
         {
-          "title": "Episódio 6 - Lavarinth",
+          "titulo": "Episódio 6 - Lavarinth",
           "url": "https://www.youtube.com/watch?v=yedxmztthkY"
         },
         {
-          "title": "Episódio 7 - Gas Powered Stick",
+          "titulo": "Episódio 7 - Gas Powered Stick",
           "url": "https://www.youtube.com/watch?v=qJWv0HFVicQ"
         },
         {
-          "title": "Episódio 8 - Dan Before Time",
+          "titulo": "Episódio 8 - Dan Before Time",
           "url": "https://www.youtube.com/watch?v=suUPPIjmtgk"
         },
         {
-          "title": "Episódio 9 - Cereal Master",
+          "titulo": "Episódio 9 - Cereal Master",
           "url": "https://www.youtube.com/watch?v=ozHTAHPt4Cs"
         },
         {
-          "title": "Episódio 10 - Ultra Wankershim",
+          "titulo": "Episódio 10 - Ultra Wankershim",
           "url": "https://www.youtube.com/watch?v=LostGanERWk"
         },
         {
-          "title": "Episódio 11 - Catbug",
+          "titulo": "Episódio 11 - Catbug",
           "url": "https://www.youtube.com/watch?v=Q8XbcTiogls"
         },
         {
-          "title": "Episódio Bônus - Sugarbellies",
+          "titulo": "Episódio Bônus - Sugarbellies",
           "url": "https://www.youtube.com/watch?v=Ef8HrdssiFs"
         }
       ]
@@ -175,27 +175,27 @@
       },
       "videos": [
         {
-          "title": "Don't Hug me I'm Scared",
+          "titulo": "Don't Hug me I'm Scared",
           "url": "https://www.youtube.com/watch?v=9C_HReR_McQ"
         },
         {
-          "title": "Don't Hug me I'm Scared 2",
+          "titulo": "Don't Hug me I'm Scared 2",
           "url": "https://www.youtube.com/watch?v=vtkGtXtDlQA"
         },
         {
-          "title": "Don't Hug me I'm Scared 3",
+          "titulo": "Don't Hug me I'm Scared 3",
           "url": "https://www.youtube.com/watch?v=sXOdn6vLCuU"
         },
         {
-          "title": "Don't Hug me I'm Scared 4",
+          "titulo": "Don't Hug me I'm Scared 4",
           "url": "https://www.youtube.com/watch?v=G9FGgwCQ22w"
         },
         {
-          "title": "Don't Hug me I'm Scared 5",
+          "titulo": "Don't Hug me I'm Scared 5",
           "url": "https://www.youtube.com/watch?v=tS_Xq7gSCBM"
         },
         {
-          "title": "Don't Hug me I'm Scared 6",
+          "titulo": "Don't Hug me I'm Scared 6",
           "url": "https://www.youtube.com/watch?v=dbL-NSkXnl8"
         }
       ]
