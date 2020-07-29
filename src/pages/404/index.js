@@ -16,7 +16,7 @@ const Pagina404 = () => {
       }}>
         <h1>Página não encontrada :(</h1>
         <Link to="/">Voltar para a home</Link>
-        <iframe style={{marginTop: "50px", overflow: "hidden"}} scrolling="no" src="https://mariosouto.com/flappy-bird-devsoutinho/" width="340" height="600"></iframe>
+        <iframe title="flappy-bird" style={{marginTop: "50px", overflow: "hidden"}} scrolling="no" src="https://mariosouto.com/flappy-bird-devsoutinho/" width="340" height="600"></iframe>
       </div>
     );
 }
