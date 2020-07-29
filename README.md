@@ -7,5 +7,5 @@
 > Ainda em desenvolvimento, mas você pode ver como está ficando clicando [**aqui**](https://youtoon.vercel.app/)
 
 <p align="center">
-  <img alt="Logo do projeto" src="./docs/youtoon_github_template.png" />
+  <img height="240px" alt="Logo do projeto" src="./docs/youtoon_github_template.png" />
 </p>
