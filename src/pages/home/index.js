@@ -9,6 +9,7 @@ import dadosIniciais from '../../data/dados_iniciais.json';
 const RenderCarousels = () => (dadosIniciais.categorias.map(categoria => (<Carousel category={categoria}/>)));
 
 function Home() {
+
   return (
       <Layout>
         <BannerMain
