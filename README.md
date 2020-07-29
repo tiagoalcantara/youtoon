@@ -1,6 +1,6 @@
 # YouToon 
 
-[![licence mit](https://img.shields.io/github/license/tiagoalcantara/youtoon)](https://github.com/tiagoalcantara/youtoon/blob/master/LICENSE)
+[![licence mit](https://img.shields.io/github/license/tiagoalcantara/youtoon)(https://github.com/tiagoalcantara/youtoon/blob/master/LICENSE)
 
 > Compilado de animações produzidas e oficialmente publicadas no youtube! Fique a vontade para enviar sugestões. Desenvolvido durante a [Imersão React] da Alura.
 >
