@@ -12,18 +12,18 @@ const Main = styled.main`
     background-color: var(--grayDark);
     color: var(--white);
     flex: 1;
-`
+`;
 
 function Layout({ children }: Props) {
-    return (
-        <>
-            <Menu />
-                <Main>
-                    {children}
-                </Main>
-            <Footer />
-        </>
-    );
+  return (
+    <>
+      <Menu />
+      <Main>
+        {children}
+      </Main>
+      <Footer />
+    </>
+  );
 }
 
 export default Layout;

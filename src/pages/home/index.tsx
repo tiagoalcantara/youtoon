@@ -6,21 +6,22 @@ import Layout from '../../components/Layout';
 
 import dadosIniciais from '../../data/dados_iniciais.json';
 
-const RenderCarousels = () => (dadosIniciais.categorias.map((categoria, key) => (<Carousel key={`categoria-${key}`} category={categoria}/>)));
+const RenderCarousels = (): JSX.Element | JSX.Element[] | null => (dadosIniciais.categorias.map(
+  (categoria) => (<Carousel key={categoria.titulo} category={categoria} />),
+));
 
 function Home() {
-
   return (
-      <Layout>
-        <BannerMain
-          videoTitle={dadosIniciais.categorias[1].videos[0].titulo}
-          url={dadosIniciais.categorias[1].videos[0].url}
-          videoDescription={"Bee and PuppyCat é uma websérie de desenho animado. Gira em torno de Bee (dublado por Allyn Rachel nos EUA), uma mulher desempregada com seus vinte anos, que de repente encontra uma criatura misteriosa chamada PuppyCat."}
-        />
+    <Layout>
+      <BannerMain
+        videoTitle={dadosIniciais.categorias[1].videos[0].titulo}
+        url={dadosIniciais.categorias[1].videos[0].url}
+        videoDescription="Bee and PuppyCat é uma websérie de desenho animado. Gira em torno de Bee (dublado por Allyn Rachel nos EUA), uma mulher desempregada com seus vinte anos, que de repente encontra uma criatura misteriosa chamada PuppyCat."
+      />
 
-        {RenderCarousels()}
+      {RenderCarousels()}
 
-      </Layout>
+    </Layout>
   );
 }
 

@@ -4,7 +4,7 @@
       "titulo": "asdfmovie",
       "link": "https://www.youtube.com/channel/UCOYWgypDktXdb-HfZnSMK6A",
       "cor": "#000000",
-      "link_extra": {
+      "linkExtra": {
         "text": "(Inglês) (Legendas indisponíveis)"
       },
       "videos": [
@@ -62,46 +62,46 @@
       "titulo": "Bee and PuppyCat",
       "link": "https://www.youtube.com/user/CartoonHangover",
       "cor": "#f694f7",
-      "link_extra": {
+      "linkExtra": {
         "text": "(Inglês) (Legendas em português disponíveis)"
       },
       "videos": [
         {
           "titulo": "Episódio 1 - Food",
           "url": "https://www.youtube.com/watch?v=KNs9shgQ2rI"
-        },      
+        },
         {
           "titulo": "Episódio 2 - Farmer",
           "url": "https://www.youtube.com/watch?v=LugwQtPdkKU"
-        },      
+        },
         {
           "titulo": "Episódio 3 - Beach",
           "url": "https://www.youtube.com/watch?v=-tUiE_VbCyk"
-        },      
+        },
         {
           "titulo": "Episódio 4 - Cats",
           "url": "https://www.youtube.com/watch?v=Yjj5RsgpPwA"
-        },      
+        },
         {
           "titulo": "Episódio 5 - Birthday",
           "url": "https://www.youtube.com/watch?v=k84wXN2aXQI&"
-        },      
+        },
         {
           "titulo": "Episódio 6 - Game",
           "url": "https://www.youtube.com/watch?v=BwYcdNKY7N8"
-        },      
+        },
         {
           "titulo": "Episódio 7 - Toast",
           "url": "https://www.youtube.com/watch?v=rlcE3JHvgnY"
-        },      
+        },
         {
           "titulo": "Episódio 8 - Dogs",
           "url": "https://www.youtube.com/watch?v=exX4XhxJGy4"
-        },      
+        },
         {
           "titulo": "Episódio 9 - Wedding",
           "url": "https://www.youtube.com/watch?v=XKfNlMQpfpQ"
-        },      
+        },
         {
           "titulo": "Episódio 10 - Donut",
           "url": "https://www.youtube.com/watch?v=jTkeHhH1ho4"
@@ -112,7 +112,7 @@
       "titulo": "Bravest Warriors",
       "link": "https://www.youtube.com/user/BravestWarriors/featured",
       "cor": "#387df5",
-      "link_extra": {
+      "linkExtra": {
         "text": "(Inglês) (Legendas indisponíveis)"
       },
       "videos": [
@@ -170,7 +170,7 @@
       "titulo": "Don't Hug Me. I'm Scared",
       "link": "https://www.youtube.com/c/donthugmeimscared/featured",
       "cor": "#e0be4f",
-      "link_extra": {
+      "linkExtra": {
         "text": "(Inglês) (Legendas indisponíveis) (Terror)"
       },
       "videos": [
@@ -204,18 +204,18 @@
       "titulo": "GO! Cartoons",
       "link": "https://www.youtube.com/channel/UCIA9jUDnKVMYc4SmqTxcwqg",
       "cor": "#f7ee81",
-      "link_extra": {
+      "linkExtra": {
         "text": "(Inglês) (Legendas em português disponíveis em alguns dos episódios)"
       },
       "videos": [
         {
           "titulo": "The summoning",
           "url": "https://www.youtube.com/watch?v=ElzEYgQW8f0"
-        },    
+        },
         {
           "titulo": "Boots",
           "url": "https://www.youtube.com/watch?v=cDPVCMasOW0"
-        },   
+        },
         {
           "titulo": "City Dwellers",
           "url": "https://www.youtube.com/watch?v=Kzj44NQdLzs"
@@ -258,82 +258,82 @@
       "titulo": "Hazbin Hotel",
       "link": "https://www.youtube.com/channel/UCzfyYtgvkx5mLy8nlLlayYg",
       "cor": "#990000",
-      "link_extra": {
+      "linkExtra": {
         "text": "(Inglês) (Legendas indisponíveis) [18+]"
       },
       "videos": [
         {
           "titulo": "Episódio 0 - Pilot",
           "url": "https://www.youtube.com/watch?v=Zlmswo0S0e0"
-        }    
+        }
       ]
     },
     {
       "titulo": "Helluva Boss",
       "link": "https://www.youtube.com/channel/UCzfyYtgvkx5mLy8nlLlayYg",
       "cor": "#990000",
-      "link_extra": {
+      "linkExtra": {
         "text": "(Inglês) (Legendas indisponíveis) [18+]"
       },
       "videos": [
         {
           "titulo": "Episódio 0 - Pilot",
           "url": "https://www.youtube.com/watch?v=OlahNrlcgS4"
-        }    
+        }
       ]
     },
     {
       "titulo": "Llamas with Hats",
       "link": "https://www.youtube.com/channel/UCV3iHQsE2h3CH-LehgPRkMg",
       "cor": "#fad378",
-      "link_extra": {
+      "linkExtra": {
         "text": "(Inglês) (Legendas indisponíveis) [18+]"
       },
       "videos": [
         {
           "titulo": "Episódio 1",
           "url": "https://www.youtube.com/watch?v=kZUPCB9533Y"
-        },    
+        },
         {
           "titulo": "Episódio 2",
           "url": "https://www.youtube.com/watch?v=ZpjyH-LkEAg"
-        },    
+        },
         {
           "titulo": "Episódio 3",
           "url": "https://www.youtube.com/watch?v=49j6_uk0g3k"
-        },    
+        },
         {
           "titulo": "Episódio 4",
           "url": "https://www.youtube.com/watch?v=SJixW2u4IvQ"
-        },    
+        },
         {
           "titulo": "Episódio 5",
           "url": "https://www.youtube.com/watch?v=71iZieJWmmk"
-        },    
+        },
         {
           "titulo": "Episódio 6",
           "url": "https://www.youtube.com/watch?v=kVzaBq4ycWg"
-        },    
+        },
         {
           "titulo": "Episódio 7",
           "url": "https://www.youtube.com/watch?v=4s9-sJwNz2c"
-        },    
+        },
         {
           "titulo": "Episódio 8",
           "url": "https://www.youtube.com/watch?v=kHDghTE7Llo"
-        },    
+        },
         {
           "titulo": "Episódio 9",
           "url": "https://www.youtube.com/watch?v=RYqBDTsHZsQ"
-        },    
+        },
         {
           "titulo": "Episódio 10",
           "url": "https://www.youtube.com/watch?v=cyv-gSJvWpU"
-        },    
+        },
         {
           "titulo": "Episódio 11",
           "url": "https://www.youtube.com/watch?v=C_-zC2qcx4M"
-        },    
+        },
         {
           "titulo": "Episódio 12",
           "url": "https://www.youtube.com/watch?v=QXI0u3qyFqA"
