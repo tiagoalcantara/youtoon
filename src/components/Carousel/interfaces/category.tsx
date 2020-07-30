@@ -1,7 +1,7 @@
 export interface ICategory {
     titulo: string;
     cor: string;
-    link_extra: { text: string; };
+    linkExtra: { text: string; };
     videos: IVideo[];
     link: string;
 }

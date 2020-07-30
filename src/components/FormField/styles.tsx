@@ -5,7 +5,7 @@ export const FieldWrapper = styled.div`
     margin: 0 auto;
 
     border: 1px solid var(--greyLight);
-`
+`;
 
 export const Label = styled.label`
     position: relative;
@@ -20,7 +20,7 @@ export const Label = styled.label`
         top: 0;
         font-size: 0.8em;
     }
-`
+`;
 
 export const TextArea = styled.textarea`
     position: relative;
@@ -40,7 +40,7 @@ export const TextArea = styled.textarea`
 
     resize: none;
     height: 200px;
-`
+`;
 
 export const InputField = styled.input`
     margin: 16px 0;
@@ -71,4 +71,4 @@ export const InputField = styled.input`
 
         display: inline-block;
     }
-`
+`;

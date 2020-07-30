@@ -3,6 +3,7 @@ import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
 import Slider, { SliderItem } from './components/Slider';
 
+// eslint-disable-next-line no-unused-vars
 import { ICategory } from './interfaces/category';
 
 interface Props {
@@ -16,22 +17,23 @@ function Carousel({
 }: Props) {
   const categoryTitle = category.titulo;
   const categoryColor = category.cor;
-  const comment = category.link_extra;
-  const videos = category.videos;
+  const comment = category.linkExtra;
+  const { videos } = category;
   const categoryLink = category.link;
 
   return (
     <VideoCardGroupContainer>
       {categoryTitle && (
-        <div style={{display: "flex", alignItems: "flex-end"}}>
+        <div style={{ display: 'flex', alignItems: 'flex-end' }}>
           <Title href={categoryLink} target="_blank" style={{ backgroundColor: categoryColor || 'red' }}>
             {categoryTitle}
           </Title>
-          {comment && 
+          {comment
+            && (
             <ExtraLink>
-              {comment.text}  
+              {comment.text}
             </ExtraLink>
-          }
+            )}
         </div>
       )}
       <Slider>

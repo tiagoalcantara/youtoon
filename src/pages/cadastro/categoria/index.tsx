@@ -13,12 +13,11 @@ interface formFields {
 }
 
 function CadastroCategoria() {
-
   const initialValues = {
     name: '',
     description: '',
     color: '#000000',
-  }
+  };
 
   const [categories, setCategories] = useState<string[]>([]);
   const [formValues, setFormValues] = useState<formFields>(initialValues);
@@ -30,66 +29,64 @@ function CadastroCategoria() {
       {
         ...formValues,
         [target.name]: target.value,
-      }
+      },
     );
-  }
+  };
 
   const handleOnSubmit = (e: React.FormEvent<EventTarget>) => {
     e.preventDefault();
     setCategories([...categories, formValues.name]);
     setFormValues(initialValues);
-  }
+  };
 
   return (
-      <Layout>
-         <h1 style={{textAlign: 'center'}}>Cadastro de Categoria</h1>
-          <form onSubmit={handleOnSubmit}>
-           
-           <FormField 
-            label="Nome da categoria"
-            value={formValues.name}
-            onChange={handleOnChange}
-            name="name"
-           />
+    <Layout>
+      <h1 style={{ textAlign: 'center' }}>Cadastro de Categoria</h1>
+      <form onSubmit={handleOnSubmit}>
 
-          <FormField 
-            label="Descrição"
-            value={formValues.description}
-            onChange={handleOnChange}
-            name="description"
-            type="textarea"
-           />
+        <FormField
+          label="Nome da categoria"
+          value={formValues.name}
+          onChange={handleOnChange}
+          name="name"
+        />
 
-           <FormField 
-            label="Cor"
-            value={formValues.color}
-            onChange={handleOnChange}
-            name="color"
-            type="color"
-           />
+        <FormField
+          label="Descrição"
+          value={formValues.description}
+          onChange={handleOnChange}
+          name="description"
+          type="textarea"
+        />
 
-            <div style={{textAlign: 'center', marginTop: "16px"}}>
-              <Button className="ButtonLink">Cadastrar</Button>
-            </div>
-          </form>
+        <FormField
+          label="Cor"
+          value={formValues.color}
+          onChange={handleOnChange}
+          name="color"
+          type="color"
+        />
 
-          <ul>
-            {categories.map((categoria, key) => {
-              return (
-                <li key={`${categoria}-${key}`}>
-                  {categoria}
-                </li>);
-            })}
-          </ul>
+        <div style={{ textAlign: 'center', marginTop: '16px' }}>
+          <Button className="ButtonLink">Cadastrar</Button>
+        </div>
+      </form>
 
+      <ul>
+        {categories.map((categoria) => (
+          <li key={`${categoria}`}>
+            {categoria}
+          </li>
+        ))}
+      </ul>
 
-          <div style={{textAlign: 'center'}}>
-            <Link to="/">
-              Voltar para home
-            </Link>
-          </div>
-      </Layout>
-    )
+      <div style={{ textAlign: 'center' }}>
+        <Link to="/">
+          Voltar para home
+        </Link>
+      </div>
+    </Layout>
+  );
 }
 
 export default CadastroCategoria;

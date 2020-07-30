@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { FieldWrapper, Label, InputField, TextArea } from './styles';
+import {
+  FieldWrapper, Label, InputField, TextArea,
+} from './styles';
 
 interface Props {
     type?: string;
@@ -10,33 +12,53 @@ interface Props {
     onChange: (e: React.FormEvent<EventTarget>) => void;
 }
 
-function FormField({ type = "text", value, onChange, name, label}: Props){
-    const [filled, setFilled] = useState(!!value);
+function FormField({
+  type = 'text', value, onChange, name, label,
+}: Props) {
+  const [filled, setFilled] = useState(!!value);
 
-    const handleOnFocus = () => {
-        setFilled(true);
+  const handleOnFocus = () => {
+    setFilled(true);
+  };
+
+  const handleOnBlur = () => {
+    if (!value) {
+      setFilled(false);
     }
+  };
 
-    const handleOnBlur = () => {
-        if(!value){
-            setFilled(false);
-        }
-    }
-
-    const inputTag = type === "textarea" ? 
-    <TextArea value={value} onChange={onChange} name={name} onFocus={handleOnFocus} onBlur={handleOnBlur}/> :  
-    <InputField  type={type} value={value} onChange={onChange} name={name} onFocus={handleOnFocus} onBlur={handleOnBlur}/>;
-
-    return (
-        <FieldWrapper>
-            <Label className={filled ? "filled" : ""}>
-                {label}:
-            </Label>
-                
-            {inputTag}
-            
-        </FieldWrapper>
+  const inputTag = type === 'textarea'
+    ? (
+      <TextArea
+        value={value}
+        onChange={onChange}
+        name={name}
+        onFocus={handleOnFocus}
+        onBlur={handleOnBlur}
+      />
+    )
+    : (
+      <InputField
+        type={type}
+        value={value}
+        onChange={onChange}
+        name={name}
+        onFocus={handleOnFocus}
+        onBlur={handleOnBlur}
+      />
     );
+
+  return (
+    <FieldWrapper>
+      <Label htmlFor={name} className={filled ? 'filled' : ''}>
+        {label}
+        :
+      </Label>
+
+      {inputTag}
+
+    </FieldWrapper>
+  );
 }
 
 export default FormField;
