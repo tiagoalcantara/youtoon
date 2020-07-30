@@ -25,10 +25,11 @@ function CadastroCategoria() {
   const [formValues, setFormValues] = useState<formFields>(initialValues);
 
   useEffect(() => {
-    const URL = 'http://localhost:3333/categorias';
+    const API_URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias' : 'https://backend-youtoon.herokuapp.com/categorias';
 
     setTimeout(() => {
-      fetch(URL).then(async (res) => {
+      fetch(API_URL).then(async (res) => {
         const data = await res.json();
         setCategories([...data]);
       });
