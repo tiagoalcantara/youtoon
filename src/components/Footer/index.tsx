@@ -24,9 +24,9 @@ function Footer() {
 
 
       <p style={{ display: "flex", justifyContent: "center"}}>
-        <a target="_blank" href="https://www.linkedin.com/in/tiago-ferreira-de-alcantara-campos-3126a6144/"><img style={{width: "32px", margin: "4px"}} src={IconLinkedin} /></a>
-        <a target="_blank" href="https://twitter.com/umtiagoporai"><img style={{width: "32px", margin: "4px"}} src={IconTwitter} /></a>
-        <a target="_blank" href="https://github.com/tiagoalcantara"><img style={{width: "32px", margin: "4px"}} src={IconGithub} /></a>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/tiago-ferreira-de-alcantara-campos-3126a6144/"><img alt="Linkedin" style={{width: "32px", margin: "4px"}} src={IconLinkedin} /></a>
+        <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/umtiagoporai"><img alt="Twitter" style={{width: "32px", margin: "4px"}} src={IconTwitter} /></a>
+        <a rel="noopener noreferrer" target="_blank" href="https://github.com/tiagoalcantara"><img alt="Github" style={{width: "32px", margin: "4px"}} src={IconGithub} /></a>
       </p>
 
       <p style={{fontSize: '.6em'}}>

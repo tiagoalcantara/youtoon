@@ -6,7 +6,7 @@ import Layout from '../../components/Layout';
 
 import dadosIniciais from '../../data/dados_iniciais.json';
 
-const RenderCarousels = () => (dadosIniciais.categorias.map(categoria => (<Carousel category={categoria}/>)));
+const RenderCarousels = () => (dadosIniciais.categorias.map((categoria, key) => (<Carousel key={`categoria-${key}`} category={categoria}/>)));
 
 function Home() {
 

@@ -9,10 +9,6 @@ const Pagina404 = () => {
         flexDirection: "column",
         alignItems: "center",
         overflow: "hidden",
-
-        ".example::-webkit-scrollbar": {
-            display: "none"
-        }
       }}>
         <h1>Página não encontrada :(</h1>
         <Link to="/">Voltar para a home</Link>

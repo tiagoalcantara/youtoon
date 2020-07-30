@@ -2,7 +2,13 @@ import React from 'react';
 import VideoIframeResponsive from './components/VideoIframeResponsive';
 import { BannerMainContainer, ContentAreaContainer, WatchButton } from './styles';
 
-function getYouTubeId(youtubeURL) {
+interface Props {
+  videoTitle: string;
+  videoDescription: string;
+  url: string;
+}
+
+function getYouTubeId(youtubeURL: string): string{
   return youtubeURL
     .replace(
       /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/,
@@ -14,7 +20,7 @@ export default function BannerMain({
   videoTitle,
   videoDescription,
   url,
-}) {
+} : Props) {
   const youTubeID = getYouTubeId(url);
   const bgUrl = `https://img.youtube.com/vi/${youTubeID}/maxresdefault.jpg`;
 
