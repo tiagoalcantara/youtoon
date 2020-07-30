@@ -22,14 +22,14 @@ const Arrow = styled.div`
   }
 `;
 
-function RenderArrow({ className, onClick } : ArrowProps) {
+function RenderArrow({ onClick } : ArrowProps) {
   return (
     <Arrow
       onKeyDown={(): void => {}}
       role="button"
       aria-label="Próximo"
       tabIndex={0}
-      className={className}
+      style={{ backgroundColor: 'black' }}
       onClick={onClick}
     />
   );

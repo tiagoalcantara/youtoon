@@ -22,12 +22,16 @@ export const Label = styled.label`
     }
 `;
 
-export const TextArea = styled.textarea`
+export const InputField = styled.input`
+margin: 16px 0;
+
+&:not([type="color"])
+ {
     position: relative;
     width: 100%;
 
     padding: 16px 8px 4px 8px;
-    margin: 16px 0;
+
 
     z-index: 10;
     background: transparent;
@@ -36,39 +40,16 @@ export const TextArea = styled.textarea`
     border-bottom: 2px solid white;
     color: white;
 
+
     display: inline-block;
+}
 
-    resize: none;
-    height: 200px;
-`;
+&[type="color"]{
+    width: 100%;
+    height: 50px;
+    background: var(--grayMedium);
+    border: none;
 
-export const InputField = styled.input`
-    margin: 16px 0;
-
-    &[type="text"]{
-        position: relative;
-        width: 100%;
-
-        padding: 16px 8px 4px 8px;
-        
-
-        z-index: 10;
-        background: transparent;
-
-        border: none;
-        border-bottom: 2px solid white;
-        color: white;
-        
-
-        display: inline-block;
-    }
-
-    &[type="color"]{
-        width: 100%;
-        height: 50px;
-        background: var(--grayMedium);
-        border: none;
-
-        display: inline-block;
-    }
+    display: inline-block;
+}
 `;

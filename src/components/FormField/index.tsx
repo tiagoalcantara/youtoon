@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {
-  FieldWrapper, Label, InputField, TextArea,
+  FieldWrapper, Label, InputField,
 } from './styles';
 
 interface Props {
@@ -27,35 +27,40 @@ function FormField({
     }
   };
 
-  const inputTag = type === 'textarea'
-    ? (
-      <TextArea
-        value={value}
-        onChange={onChange}
-        name={name}
-        onFocus={handleOnFocus}
-        onBlur={handleOnBlur}
-      />
-    )
-    : (
-      <InputField
-        type={type}
-        value={value}
-        onChange={onChange}
-        name={name}
-        onFocus={handleOnFocus}
-        onBlur={handleOnBlur}
-      />
-    );
+  const isTextArea = type === 'textarea';
+  const fieldId = `id_${name}`;
 
   return (
     <FieldWrapper>
-      <Label htmlFor={name} className={filled ? 'filled' : ''}>
+      <Label htmlFor={fieldId} className={filled ? 'filled' : ''}>
         {label}
         :
       </Label>
 
-      {inputTag}
+      {isTextArea
+        ? (
+          <InputField
+            as="textarea"
+            style={{ resize: 'none', height: '200px' }}
+            value={value}
+            onChange={onChange}
+            name={name}
+            id={fieldId}
+            onFocus={handleOnFocus}
+            onBlur={handleOnBlur}
+          />
+        )
+        : (
+          <InputField
+            type={type}
+            value={value}
+            onChange={onChange}
+            name={name}
+            id={fieldId}
+            onFocus={handleOnFocus}
+            onBlur={handleOnBlur}
+          />
+        )}
 
     </FieldWrapper>
   );

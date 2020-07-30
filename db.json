@@ -1,0 +1,23 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "asdfmovie",
+      "link": "https://www.youtube.com/channel/UCOYWgypDktXdb-HfZnSMK6A",
+      "cor": "#000000",
+      "linkExtra": {
+        "text": "(Inglês) (Legendas indisponíveis)"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Bee and PuppyCat",
+      "link": "https://www.youtube.com/user/CartoonHangover",
+      "cor": "#f694f7",
+      "linkExtra": {
+        "text": "(Inglês) (Legendas em português disponíveis)"
+      }
+    }
+  ]
+
+}
