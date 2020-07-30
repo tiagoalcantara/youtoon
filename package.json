@@ -35,7 +35,7 @@
   },
   "scripts": {
     "develop": "concurrently \"react-scripts start\"  \"yarn server\"",
-    "server": "json-server --watch db.json --port 3333",
+    "server": "node ./server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
