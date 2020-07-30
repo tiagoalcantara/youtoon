@@ -6,6 +6,12 @@ import Layout from '../../../components/Layout';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 
+interface formFields {
+  name: string,
+  description: string,
+  color: string,
+}
+
 function CadastroCategoria() {
 
   const initialValues = {
@@ -14,19 +20,21 @@ function CadastroCategoria() {
     color: '#000000',
   }
 
-  const [categories, setCategories] = useState([]);
-  const [formValues, setFormValues] = useState(initialValues);
+  const [categories, setCategories] = useState<string[]>([]);
+  const [formValues, setFormValues] = useState<formFields>(initialValues);
 
-  const handleOnChange = (e) => {
+  const handleOnChange = (e: React.FormEvent<EventTarget>) => {
+    const target = e.target as HTMLInputElement;
+
     setFormValues(
       {
         ...formValues,
-        [e.target.name]: e.target.value,
+        [target.name]: target.value,
       }
     );
   }
 
-  const handleOnSubmit = (e) => {
+  const handleOnSubmit = (e: React.FormEvent<EventTarget>) => {
     e.preventDefault();
     setCategories([...categories, formValues.name]);
     setFormValues(initialValues);

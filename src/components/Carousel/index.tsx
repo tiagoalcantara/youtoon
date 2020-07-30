@@ -3,10 +3,17 @@ import { VideoCardGroupContainer, Title, ExtraLink } from './styles';
 import VideoCard from './components/VideoCard';
 import Slider, { SliderItem } from './components/Slider';
 
+import { ICategory } from './interfaces/category';
+
+interface Props {
+  ignoreFirstVideo?: boolean;
+  category: ICategory;
+}
+
 function Carousel({
-  ignoreFirstVideo,
+  ignoreFirstVideo = false,
   category,
-}) {
+}: Props) {
   const categoryTitle = category.titulo;
   const categoryColor = category.cor;
   const comment = category.link_extra;
