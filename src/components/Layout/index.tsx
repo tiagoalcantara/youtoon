@@ -4,6 +4,9 @@ import styled from 'styled-components';
 import Menu from '../Menu';
 import Footer from '../Footer';
 
+interface Props {
+    children: React.ReactNode;
+}
 
 const Main = styled.main`
     background-color: var(--grayDark);
@@ -11,7 +14,7 @@ const Main = styled.main`
     flex: 1;
 `
 
-function Layout({ children }) {
+function Layout({ children }: Props) {
     return (
         <>
             <Menu />
