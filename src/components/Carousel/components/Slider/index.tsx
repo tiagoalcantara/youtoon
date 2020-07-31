@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
 import SlickSlider from 'react-slick';
 import styled from 'styled-components';
@@ -11,25 +10,29 @@ interface ArrowProps {
 const Arrow = styled.div`
   height: 85%;
   width: 32px;
-  background: black;
-  opacity: .3;
   display: flex;
   align-items: center;
   transition: opacity .1s;
+  background: black;
 
-  &:hover {
-    opacity: '1',
+  &:hover,
+  &:focus{
+    background: black;
+  }
+
+  @media (max-width: 800px) {
+    display: none;
   }
 `;
 
-function RenderArrow({ onClick } : ArrowProps) {
+function RenderArrow({ className, onClick } : ArrowProps) {
   return (
     <Arrow
       onKeyDown={(): void => {}}
       role="button"
       aria-label="Próximo"
       tabIndex={0}
-      style={{ backgroundColor: 'black' }}
+      className={className}
       onClick={onClick}
     />
   );
@@ -47,7 +50,7 @@ const Container = styled.ul`
     bottom: 0;
     margin: auto;
     width: 30px;
-    height: 30px;
+    height: 85%;
     transform: initial;
 
     &:before {
